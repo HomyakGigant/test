@@ -65,4 +65,17 @@ public class Cat {
         if (50 / weight > .01)
             pee();
     }
+
+    public static void main(String[] args) {
+        Cat anfisa = new Cat(5900 , "Anfisa",3,"Grey");
+        Cat kefirich = new Cat(4000 , "Kefirich",3,"White");
+        anfisa.eat();
+        anfisa.meow();
+        anfisa.eat();
+        kefirich.eat();
+        kefirich.meow();
+        kefirich.eat();
+        System.out.println(anfisa.name);
+        System.out.println(kefirich.name);
+    }
 }
