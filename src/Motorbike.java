@@ -33,5 +33,6 @@ public class Motorbike {
                 motorbike.getColor() + "\n" + motorbike.getCost());
         Motorbike motorbike1 = new Motorbike(2020,900000, "Honda", "White");
         Motorbike motorbike2 = new Motorbike(2020,900000, "Honda", "Grey");
+        System.out.println("bug_fix");
     }
 }
