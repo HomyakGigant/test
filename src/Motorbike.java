@@ -31,6 +31,7 @@ public class Motorbike {
         System.out.println(motorbike.getModel() + "\n" +
                 motorbike.getYear() + "\n" +
                 motorbike.getColor() + "\n" + motorbike.getCost());
-        motorbike = new Motorbike(2020,900000, "Honda", "White");
+        Motorbike motorbike1 = new Motorbike(2020,900000, "Honda", "White");
+        Motorbike motorbike2 = new Motorbike(2020,900000, "Honda", "Grey");
     }
 }
